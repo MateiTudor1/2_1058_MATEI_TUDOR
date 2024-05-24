@@ -35,38 +35,42 @@
             // 
             // filmebutton
             // 
-            this.filmebutton.Location = new System.Drawing.Point(322, 12);
+            this.filmebutton.BackColor = System.Drawing.Color.Lavender;
+            this.filmebutton.Location = new System.Drawing.Point(311, 173);
             this.filmebutton.Name = "filmebutton";
             this.filmebutton.Size = new System.Drawing.Size(131, 77);
             this.filmebutton.TabIndex = 0;
             this.filmebutton.Text = "Filme";
-            this.filmebutton.UseVisualStyleBackColor = true;
+            this.filmebutton.UseVisualStyleBackColor = false;
             this.filmebutton.Click += new System.EventHandler(this.filmebutton_Click);
             // 
             // clientiButton
             // 
-            this.clientiButton.Location = new System.Drawing.Point(17, 12);
+            this.clientiButton.BackColor = System.Drawing.Color.Lavender;
+            this.clientiButton.Location = new System.Drawing.Point(311, 61);
             this.clientiButton.Name = "clientiButton";
             this.clientiButton.Size = new System.Drawing.Size(131, 77);
             this.clientiButton.TabIndex = 1;
             this.clientiButton.Text = "Clienti";
-            this.clientiButton.UseVisualStyleBackColor = true;
+            this.clientiButton.UseVisualStyleBackColor = false;
             this.clientiButton.Click += new System.EventHandler(this.clientiButton_Click);
             // 
             // InchirieriButton
             // 
-            this.InchirieriButton.Location = new System.Drawing.Point(651, 12);
+            this.InchirieriButton.BackColor = System.Drawing.Color.Lavender;
+            this.InchirieriButton.Location = new System.Drawing.Point(311, 290);
             this.InchirieriButton.Name = "InchirieriButton";
-            this.InchirieriButton.Size = new System.Drawing.Size(137, 77);
+            this.InchirieriButton.Size = new System.Drawing.Size(131, 77);
             this.InchirieriButton.TabIndex = 2;
             this.InchirieriButton.Text = "Inchirieri";
-            this.InchirieriButton.UseVisualStyleBackColor = true;
+            this.InchirieriButton.UseVisualStyleBackColor = false;
             this.InchirieriButton.Click += new System.EventHandler(this.InchirieriButton_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SlateBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.InchirieriButton);
             this.Controls.Add(this.clientiButton);

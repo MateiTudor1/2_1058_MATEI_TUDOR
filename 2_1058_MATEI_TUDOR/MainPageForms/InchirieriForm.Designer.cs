@@ -37,6 +37,7 @@
             // 
             this.inchirieriDataGridView.AllowUserToAddRows = false;
             this.inchirieriDataGridView.AllowUserToDeleteRows = false;
+            this.inchirieriDataGridView.BackgroundColor = System.Drawing.Color.Lavender;
             this.inchirieriDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.inchirieriDataGridView.Location = new System.Drawing.Point(12, 87);
             this.inchirieriDataGridView.Name = "inchirieriDataGridView";
@@ -47,18 +48,20 @@
             // 
             // addInchiriereButton
             // 
+            this.addInchiriereButton.BackColor = System.Drawing.Color.Lavender;
             this.addInchiriereButton.Location = new System.Drawing.Point(12, 12);
             this.addInchiriereButton.Name = "addInchiriereButton";
             this.addInchiriereButton.Size = new System.Drawing.Size(112, 69);
             this.addInchiriereButton.TabIndex = 1;
             this.addInchiriereButton.Text = "Add Inchiriere";
-            this.addInchiriereButton.UseVisualStyleBackColor = true;
+            this.addInchiriereButton.UseVisualStyleBackColor = false;
             this.addInchiriereButton.Click += new System.EventHandler(this.addInchiriereButton_Click);
             // 
             // InchirieriForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SlateBlue;
             this.ClientSize = new System.Drawing.Size(968, 540);
             this.Controls.Add(this.addInchiriereButton);
             this.Controls.Add(this.inchirieriDataGridView);

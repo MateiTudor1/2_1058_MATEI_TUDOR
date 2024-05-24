@@ -35,22 +35,22 @@
             this.telefonLabel = new System.Windows.Forms.Label();
             this.emailLabel = new System.Windows.Forms.Label();
             this.numeLabel = new System.Windows.Forms.Label();
-            this.clientIdTextBox = new System.Windows.Forms.TextBox();
-            this.clientIdLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // saveButton
             // 
+            this.saveButton.BackColor = System.Drawing.Color.Lavender;
             this.saveButton.Location = new System.Drawing.Point(246, 179);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(75, 23);
             this.saveButton.TabIndex = 17;
             this.saveButton.Text = "Save";
-            this.saveButton.UseVisualStyleBackColor = true;
+            this.saveButton.UseVisualStyleBackColor = false;
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
             // telefonTextBox
             // 
+            this.telefonTextBox.BackColor = System.Drawing.Color.Lavender;
             this.telefonTextBox.Location = new System.Drawing.Point(93, 137);
             this.telefonTextBox.Name = "telefonTextBox";
             this.telefonTextBox.Size = new System.Drawing.Size(228, 20);
@@ -58,6 +58,7 @@
             // 
             // emailTextBox
             // 
+            this.emailTextBox.BackColor = System.Drawing.Color.Lavender;
             this.emailTextBox.Location = new System.Drawing.Point(93, 102);
             this.emailTextBox.Name = "emailTextBox";
             this.emailTextBox.Size = new System.Drawing.Size(228, 20);
@@ -65,6 +66,7 @@
             // 
             // numeTextBox
             // 
+            this.numeTextBox.BackColor = System.Drawing.Color.Lavender;
             this.numeTextBox.Location = new System.Drawing.Point(93, 63);
             this.numeTextBox.Name = "numeTextBox";
             this.numeTextBox.Size = new System.Drawing.Size(228, 20);
@@ -73,6 +75,7 @@
             // telefonLabel
             // 
             this.telefonLabel.AutoSize = true;
+            this.telefonLabel.BackColor = System.Drawing.Color.Lavender;
             this.telefonLabel.Location = new System.Drawing.Point(40, 140);
             this.telefonLabel.Name = "telefonLabel";
             this.telefonLabel.Size = new System.Drawing.Size(43, 13);
@@ -82,6 +85,7 @@
             // emailLabel
             // 
             this.emailLabel.AutoSize = true;
+            this.emailLabel.BackColor = System.Drawing.Color.Lavender;
             this.emailLabel.Location = new System.Drawing.Point(40, 105);
             this.emailLabel.Name = "emailLabel";
             this.emailLabel.Size = new System.Drawing.Size(32, 13);
@@ -91,32 +95,18 @@
             // numeLabel
             // 
             this.numeLabel.AutoSize = true;
+            this.numeLabel.BackColor = System.Drawing.Color.Lavender;
             this.numeLabel.Location = new System.Drawing.Point(40, 66);
             this.numeLabel.Name = "numeLabel";
             this.numeLabel.Size = new System.Drawing.Size(35, 13);
             this.numeLabel.TabIndex = 11;
             this.numeLabel.Text = "Nume";
             // 
-            // clientIdTextBox
-            // 
-            this.clientIdTextBox.Location = new System.Drawing.Point(93, 33);
-            this.clientIdTextBox.Name = "clientIdTextBox";
-            this.clientIdTextBox.Size = new System.Drawing.Size(228, 20);
-            this.clientIdTextBox.TabIndex = 10;
-            // 
-            // clientIdLabel
-            // 
-            this.clientIdLabel.AutoSize = true;
-            this.clientIdLabel.Location = new System.Drawing.Point(36, 36);
-            this.clientIdLabel.Name = "clientIdLabel";
-            this.clientIdLabel.Size = new System.Drawing.Size(47, 13);
-            this.clientIdLabel.TabIndex = 9;
-            this.clientIdLabel.Text = "Client ID";
-            // 
             // EditClientForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SlateBlue;
             this.ClientSize = new System.Drawing.Size(362, 220);
             this.Controls.Add(this.saveButton);
             this.Controls.Add(this.telefonTextBox);
@@ -125,8 +115,6 @@
             this.Controls.Add(this.telefonLabel);
             this.Controls.Add(this.emailLabel);
             this.Controls.Add(this.numeLabel);
-            this.Controls.Add(this.clientIdTextBox);
-            this.Controls.Add(this.clientIdLabel);
             this.Name = "EditClientForm";
             this.Text = "EditClientForm";
             this.ResumeLayout(false);
@@ -143,7 +131,5 @@
         private System.Windows.Forms.Label telefonLabel;
         private System.Windows.Forms.Label emailLabel;
         private System.Windows.Forms.Label numeLabel;
-        private System.Windows.Forms.TextBox clientIdTextBox;
-        private System.Windows.Forms.Label clientIdLabel;
     }
 }

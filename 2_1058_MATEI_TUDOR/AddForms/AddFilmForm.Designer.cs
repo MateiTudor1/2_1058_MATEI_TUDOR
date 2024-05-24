@@ -28,11 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.idFilmLabel = new System.Windows.Forms.Label();
             this.titluLabel = new System.Windows.Forms.Label();
             this.genLabel = new System.Windows.Forms.Label();
             this.anLansareLabel = new System.Windows.Forms.Label();
-            this.idFilmTextBox = new System.Windows.Forms.TextBox();
             this.titluTextBox = new System.Windows.Forms.TextBox();
             this.genTextBox = new System.Windows.Forms.TextBox();
             this.saveButton = new System.Windows.Forms.Button();
@@ -40,18 +38,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.anLansareNumericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
-            // idFilmLabel
-            // 
-            this.idFilmLabel.AutoSize = true;
-            this.idFilmLabel.Location = new System.Drawing.Point(12, 9);
-            this.idFilmLabel.Name = "idFilmLabel";
-            this.idFilmLabel.Size = new System.Drawing.Size(39, 13);
-            this.idFilmLabel.TabIndex = 0;
-            this.idFilmLabel.Text = "ID Film";
-            // 
             // titluLabel
             // 
             this.titluLabel.AutoSize = true;
+            this.titluLabel.BackColor = System.Drawing.Color.Lavender;
             this.titluLabel.Location = new System.Drawing.Point(12, 43);
             this.titluLabel.Name = "titluLabel";
             this.titluLabel.Size = new System.Drawing.Size(27, 13);
@@ -61,6 +51,7 @@
             // genLabel
             // 
             this.genLabel.AutoSize = true;
+            this.genLabel.BackColor = System.Drawing.Color.Lavender;
             this.genLabel.Location = new System.Drawing.Point(12, 82);
             this.genLabel.Name = "genLabel";
             this.genLabel.Size = new System.Drawing.Size(27, 13);
@@ -70,21 +61,16 @@
             // anLansareLabel
             // 
             this.anLansareLabel.AutoSize = true;
+            this.anLansareLabel.BackColor = System.Drawing.Color.Lavender;
             this.anLansareLabel.Location = new System.Drawing.Point(12, 123);
             this.anLansareLabel.Name = "anLansareLabel";
             this.anLansareLabel.Size = new System.Drawing.Size(61, 13);
             this.anLansareLabel.TabIndex = 3;
             this.anLansareLabel.Text = "An Lansare";
             // 
-            // idFilmTextBox
-            // 
-            this.idFilmTextBox.Location = new System.Drawing.Point(79, 6);
-            this.idFilmTextBox.Name = "idFilmTextBox";
-            this.idFilmTextBox.Size = new System.Drawing.Size(241, 20);
-            this.idFilmTextBox.TabIndex = 4;
-            // 
             // titluTextBox
             // 
+            this.titluTextBox.BackColor = System.Drawing.Color.Lavender;
             this.titluTextBox.Location = new System.Drawing.Point(79, 43);
             this.titluTextBox.Name = "titluTextBox";
             this.titluTextBox.Size = new System.Drawing.Size(241, 20);
@@ -92,6 +78,7 @@
             // 
             // genTextBox
             // 
+            this.genTextBox.BackColor = System.Drawing.Color.Lavender;
             this.genTextBox.Location = new System.Drawing.Point(79, 79);
             this.genTextBox.Name = "genTextBox";
             this.genTextBox.Size = new System.Drawing.Size(241, 20);
@@ -99,16 +86,18 @@
             // 
             // saveButton
             // 
+            this.saveButton.BackColor = System.Drawing.Color.Lavender;
             this.saveButton.Location = new System.Drawing.Point(245, 166);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(75, 23);
             this.saveButton.TabIndex = 8;
             this.saveButton.Text = "Save";
-            this.saveButton.UseVisualStyleBackColor = true;
+            this.saveButton.UseVisualStyleBackColor = false;
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
             // anLansareNumericUpDown
             // 
+            this.anLansareNumericUpDown.BackColor = System.Drawing.Color.Lavender;
             this.anLansareNumericUpDown.Location = new System.Drawing.Point(79, 116);
             this.anLansareNumericUpDown.Name = "anLansareNumericUpDown";
             this.anLansareNumericUpDown.Size = new System.Drawing.Size(241, 20);
@@ -118,16 +107,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SlateBlue;
             this.ClientSize = new System.Drawing.Size(332, 215);
             this.Controls.Add(this.anLansareNumericUpDown);
             this.Controls.Add(this.saveButton);
             this.Controls.Add(this.genTextBox);
             this.Controls.Add(this.titluTextBox);
-            this.Controls.Add(this.idFilmTextBox);
             this.Controls.Add(this.anLansareLabel);
             this.Controls.Add(this.genLabel);
             this.Controls.Add(this.titluLabel);
-            this.Controls.Add(this.idFilmLabel);
             this.Name = "AddFilmForm";
             this.Text = "AddFilmForm";
             ((System.ComponentModel.ISupportInitialize)(this.anLansareNumericUpDown)).EndInit();
@@ -137,12 +125,9 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label idFilmLabel;
         private System.Windows.Forms.Label titluLabel;
         private System.Windows.Forms.Label genLabel;
         private System.Windows.Forms.Label anLansareLabel;
-        private System.Windows.Forms.TextBox idFilmTextBox;
         private System.Windows.Forms.TextBox titluTextBox;
         private System.Windows.Forms.TextBox genTextBox;
         private System.Windows.Forms.Button saveButton;
